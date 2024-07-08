@@ -1,5 +1,5 @@
 import MyButton from "../myButton/myButton"
-import MyInput from "../Input/MyInput"
+import MyInput from "../MyInput/MyInput"
 import './loginForm.css'
 
 
@@ -24,7 +24,7 @@ export default function LoginForm(){
             placeholder="Enter your password"
             label="Password"
             />
-            <MyButton onClick={"submit"} name={'Submit'} type="submit" />
+            <MyButton onClick={"submit"} name={'Submit'} type={"submit"} />
         </form>
     )
 }

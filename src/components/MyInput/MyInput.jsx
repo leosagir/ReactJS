@@ -5,8 +5,8 @@ export default function MyInput(props){
         <div className="inputWrapper">
            <label htmlFor={props.name}>{props.label}</label> 
            <input 
-           id={props.name}
-           name={props.type}
+           id={props.id}
+           name={props.name}
            type={props.type}
            placeholder={props.placeholder}
            className="myInput"

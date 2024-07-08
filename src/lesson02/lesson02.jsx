@@ -17,9 +17,9 @@ export default function Lesson02(){
             <p>React Props: способ обмена данными из компонента в компонент</p>
         <h5>Мы хотим использовать наш компонент кнопку с разными данными</h5>
         <div>
-        <MyButton onClick={handleClick} name={'click'}/>
-        <MyButton onClick={handleSubmit} name={'submit'}/>
-        <MyButton onClick={handleTurtle} name={'🐢'}/>
+        <MyButton type={'button'} onClick={handleClick} name={'click'}/>
+        <MyButton type={'button'} onClick={handleSubmit} name={'submit'}/>
+        <MyButton type={'button'} onClick={handleTurtle} name={'🐢'}/>
         </div>
         </div>
     )
