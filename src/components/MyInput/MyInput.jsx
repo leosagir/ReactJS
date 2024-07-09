@@ -1,14 +1,14 @@
 import './MyInput.css'
 
-export default function MyInput(props){
+export default function MyInput({id, name, label, type, placeholder}){
     return (
         <div className="inputWrapper">
-           <label htmlFor={props.name}>{props.label}</label> 
+           <label htmlFor={name}>{label}</label> 
            <input 
-           id={props.id}
-           name={props.name}
-           type={props.type}
-           placeholder={props.placeholder}
+           id={id}
+           name={name}
+           type={type}
+           placeholder={placeholder}
            className="myInput"
            />
         </div>
