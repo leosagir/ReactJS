@@ -22,19 +22,9 @@ export default function Feedback() {
     return (
         <div className='feedback-container'>
             <h3>Ставь 👍 если тебе понравилось!</h3>
-            <div className='like-dislike-container'>
-                <div className='feedback-like'>
-                    <span>{likes}</span>
-                    <MyButton onClick={handleLike} type='button' name='👍'>
-                        Like
-                    </MyButton>
-                </div>
-                <div className='feedback-dislike'>
-                    <MyButton onClick={handleDislike} type='button' name='👎'>
-                        Dislike
-                    </MyButton>
-                    <span>{dislikes}</span>
-                </div>
+            <div className='like-dislike-container'> 
+                    <MyButton onClick={handleLike} type='button' name={`${likes} 👍`} />                           
+                    <MyButton onClick={handleDislike} type='button' name={`${dislikes} 👎`} />              
             </div>
             <div className='feedback-reset'>
                 <MyButton onClick={handleReset} type='button' name='RESET'>
