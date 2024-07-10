@@ -7,11 +7,11 @@ export default function Feedback() {
     const [dislikes, setDislikes] = useState(0);
   
     const handleLike = () => {
-      setLikes(likes + 1);
+      setLikes(likes=>likes + 1);
     };
   
     const handleDislike = () => {
-      setDislikes(dislikes + 1);
+      setDislikes(dislikes=>dislikes + 1);
     };
   
     const handleReset = () => {

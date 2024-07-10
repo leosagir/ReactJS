@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import LoginForm from '../components/LoginForm/loginForm';
 import Counter from '../components/Counter/Counter';
 import Feedback from '../components/Feedback/Feedback';
+import Lesson04 from '../Lesson04/Lesson04';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <LoginForm />
       <Feedback />
       <section>Наш подход к обучению</section>
+      <Lesson04 />
       </main>
       
     </div>
